@@ -240,7 +240,7 @@ Endee is open source software licensed under the
 You are free to use, modify, and distribute this software for
 personal, commercial, and production use.
 
-See the LICENSE.txt file for full license terms.
+See the LICENSE file for full license terms.
 
 ---
 
