@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+# RAG App - Python dependencies
+#
+# To install:
+#   python -m pip install --upgrade pip
+#   python -m pip install -r requirements.txt
+#
+# NOTE (CPU-only PyTorch):
+# Install torch separately using the official CPU wheel index:
+#   python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Core RAG stack
+chromadb==1.5.0
+sentence-transformers==5.2.2
+
+# Configuration / environment
+python-dotenv==1.2.1
+
+# GitHub Models (Azure Inference) for chat generation
+azure-ai-inference==1.0.0b9
+azure-core==1.38.0
+
+# URL loading (for documents/urls.txt + hardcoded URL list)
+requests==2.32.5
+beautifulsoup4==4.13.5

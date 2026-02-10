@@ -1,0 +1,7 @@
+# Ignore environment files
+.env
+.env.*
+venv/
+__pycache__/
+.env
+chroma_db/

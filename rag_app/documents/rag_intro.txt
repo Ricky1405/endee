@@ -1,0 +1,8 @@
+Retrieval Augmented Generation is a technique that enhances large language models
+by retrieving relevant external information before generating a response. It
+combines vector-based search with natural language generation to reduce
+hallucinations and improve factual accuracy.
+
+RAG systems store documents as vector embeddings and retrieve them using semantic
+similarity. The retrieved documents are injected into the prompt of the language
+model, grounding its output in real data.
