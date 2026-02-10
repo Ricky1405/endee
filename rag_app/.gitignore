@@ -1,7 +1,17 @@
-# Ignore environment files
-.env
-.env.*
+# Virtual Environment
 venv/
-__pycache__/
-.env
+source/
+env/
+
+# Chroma DB
 chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
